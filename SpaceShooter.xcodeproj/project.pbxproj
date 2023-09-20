@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		242585862701F2610057F899 /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242585852701F2610057F899 /* MainMenu.swift */; };
+		2443948C270116A700059FBA /* MainMenu.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2443948B270116A700059FBA /* MainMenu.sks */; };
 		24D3929226FE0856006629EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D3929126FE0856006629EA /* AppDelegate.swift */; };
 		24D3929426FE0856006629EA /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 24D3929326FE0856006629EA /* GameScene.sks */; };
 		24D3929626FE0856006629EA /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 24D3929526FE0856006629EA /* Actions.sks */; };
@@ -16,6 +18,8 @@
 		24D3929F26FE0857006629EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24D3929E26FE0857006629EA /* Assets.xcassets */; };
 		24D392AA26FE0857006629EA /* SpaceShooterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D392A926FE0857006629EA /* SpaceShooterTests.swift */; };
 		24D392B526FE0857006629EA /* SpaceShooterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D392B426FE0857006629EA /* SpaceShooterUITests.swift */; };
+		24D392CF26FE0F42006629EA /* Vzriv.sks in Resources */ = {isa = PBXBuildFile; fileRef = 24D392CE26FE0F42006629EA /* Vzriv.sks */; };
+		24D392D126FE0F4D006629EA /* Starfield.sks in Resources */ = {isa = PBXBuildFile; fileRef = 24D392D026FE0F4C006629EA /* Starfield.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		242585852701F2610057F899 /* MainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
+		2443948B270116A700059FBA /* MainMenu.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MainMenu.sks; sourceTree = "<group>"; };
 		24D3928E26FE0856006629EA /* SpaceShooter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceShooter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24D3929126FE0856006629EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		24D3929326FE0856006629EA /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -51,6 +57,8 @@
 		24D392B026FE0857006629EA /* SpaceShooterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpaceShooterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		24D392B426FE0857006629EA /* SpaceShooterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceShooterUITests.swift; sourceTree = "<group>"; };
 		24D392B626FE0857006629EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24D392CE26FE0F42006629EA /* Vzriv.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = Vzriv.sks; path = "../../../Downloads/Файлы/Vzriv.sks"; sourceTree = "<group>"; };
+		24D392D026FE0F4C006629EA /* Starfield.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = Starfield.sks; path = "../../../Downloads/Файлы/Starfield.sks"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +114,11 @@
 				24D3929526FE0856006629EA /* Actions.sks */,
 				24D3929726FE0856006629EA /* GameScene.swift */,
 				24D3929926FE0856006629EA /* GameViewController.swift */,
+				24D392D026FE0F4C006629EA /* Starfield.sks */,
+				24D392CE26FE0F42006629EA /* Vzriv.sks */,
 				24D3929B26FE0856006629EA /* Main.storyboard */,
+				2443948B270116A700059FBA /* MainMenu.sks */,
+				242585852701F2610057F899 /* MainMenu.swift */,
 				24D3929E26FE0857006629EA /* Assets.xcassets */,
 				24D392A026FE0857006629EA /* Info.plist */,
 			);
@@ -234,9 +246,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2443948C270116A700059FBA /* MainMenu.sks in Resources */,
 				24D3929D26FE0856006629EA /* Main.storyboard in Resources */,
+				24D392D126FE0F4D006629EA /* Starfield.sks in Resources */,
 				24D3929426FE0856006629EA /* GameScene.sks in Resources */,
 				24D3929F26FE0857006629EA /* Assets.xcassets in Resources */,
+				24D392CF26FE0F42006629EA /* Vzriv.sks in Resources */,
 				24D3929626FE0856006629EA /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,6 +280,7 @@
 				24D3929826FE0856006629EA /* GameScene.swift in Sources */,
 				24D3929A26FE0856006629EA /* GameViewController.swift in Sources */,
 				24D3929226FE0856006629EA /* AppDelegate.swift in Sources */,
+				242585862701F2610057F899 /* MainMenu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
